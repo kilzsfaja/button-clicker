@@ -1,0 +1,101 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  background-color: lightgray;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+main {
+  flex: 3;
+  /* min-height: 800px; */
+  /* padding: 50px; */
+}
+
+.sidebar {
+  flex: 1;
+  align-self: flex-start;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+  /* min-height: 200px; */
+  margin: 1rem auto;
+  padding: 20px;
+}
+
+.ninja-container {
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+  /* min-width: 350px; */
+  min-height: 250px;
+  margin: 1rem auto;
+}
+
+.ninja-body {
+  /* background-color: deepskyblue;
+    min-height: 300px; */
+  flex: 3;
+  padding: 30px;
+}
+
+.ninja-sidenav {
+  flex: 1;
+  /* background-color: cornflowerblue;
+    min-height: 300px; */
+  padding: 20px;
+}
+
+.btn {
+  padding: 5px 25px;
+  background-color: gold;
+  box-shadow: 3px 3px 1px black;
+  cursor: pointer;
+}
+
+.btn-definition {
+  background-color: limegreen;
+  box-shadow: 1px 1px 1px black;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+.btn-login {
+  color: whitesmoke;
+  background-color: deepskyblue;
+  box-shadow: 3px 3px 1px black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.searchbar {
+  width: 30rem;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: cornflowerblue;
+}

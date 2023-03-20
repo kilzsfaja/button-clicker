@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Button Clicker</title>
+  </head>
+  <body>
+    <header class="flex">
+      <h1>Dojonary</h1>
+      <input type="text" class="searchbar" name="searchbar" placeholder="Search" />
+      <button class="btn-login" onclick="logInOut(this)"><span id="login">Login</span></button>
+    </header>
+    <div class="flex container">
+      <main>
+        <div class="ninja-container flex">
+          <div class="ninja-sidenav text-center">
+            <h2>ninja</h2>
+            <p><em>noun</em></p>
+            <p>Plural: <em>ninjas</em></p>
+            <button class="btn" onclick="alert('Ninja was liked!')">13 likes</button>
+          </div>
+          <div class="ninja-body text-center">
+            <p>A practitioner skilled in the <span class="underline">Japanese</span> art of <span class="underline">ninjutsu</span></p>
+          </div>
+        </div>
+        <div class="ninja-container flex">
+          <div class="ninja-sidenav text-center">
+            <h2>ninja</h2>
+            <p><em>noun</em></p>
+            <p>Plural: <em>ninjas</em></p>
+            <button class="btn" onclick="alert('Ninja was liked!')">37 likes</button>
+          </div>
+          <div class="ninja-body text-center">
+            <p>A <span class="underline">programmer</span> who breaks down problems with <span class="underline">zen</span>-like focus</p>
+          </div>
+        </div>
+      </main>
+      <div class="sidebar">
+        <h3>Dojonary is<br> defined by YOU</h3>
+        <button class="btn-definition" onclick="this.remove()"><strong>Add Definition</strong></button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
